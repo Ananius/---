@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         纪念币预约辅助工具
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  纪念币预约辅助工具,可以在预约前提前录入人员信息,在预约时点击复制,快速录入预约人的信息
 // @author       jiangbkvir
 // @include        *://*.icbc.com.cn/*
