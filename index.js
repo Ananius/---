@@ -367,7 +367,7 @@
         document.body.appendChild(expandButton);
 
         // 从 Tampermonkey 存储空间获取数据
-        let savedData = GM_getValue('formData', ''); // 如果没有保存数据，返回空字符串
+        let savedData = GM_getValue('formData', []); // 如果没有保存数据，返回空字符串
         if (!savedData) {
             console.log('没有找到保存的数据');
             return
